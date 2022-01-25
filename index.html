@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convention Center</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <!-- Header section -->
+
+    <header class="navigation sticky-top py-2 bg-light shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">BrideGroom</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-dark" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-dark" href="#moment">Events</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-dark" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-dark" href="#faq">FAQ's</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    
+    <!-- Carousel Section -->
+
+    <section class="banner" id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item  active" data-bs-interval="3000">
+              <img src="images/banner.png" class="d-block w-100 " alt="...">
+              <div class="carousel-caption d-none m-auto d-md-block">
+                <h1 class="fs-1 w-bold ">We'll make your wedding perfect</h1>
+                <p class="fw-bold">We believe our services should be unique</p>
+                <button type="button" class="btn btn-light btn-lg text-dark">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item banner-image" data-bs-interval="3000">
+              <img src="images/banner-5 (1).jpg" class="d-block w-100  " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="fs-1 w-bold ">We'll make your wedding perfect</h1>
+                <p class="fw-bold">We believe our services should be unique</p>
+                <button type="button" class="btn btn-light btn-lg text-dark">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/banner-5 (2).jpg" class="d-block w-100  " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="fs-1 w-bold ">We'll make your wedding perfect</h1>
+                <p class="fw-bold">We believe our services should be unique</p>
+                <button type="button" class="btn btn-light btn-lg text-dark">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/banner-5 (3).jpg" class="d-block w-100 banner-image background-gradient " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="fs-1 w-bold ">We'll make your wedding perfect</h1>
+                <p class="fw-bold">We believe our services should be unique</p>
+                <button type="button" class="btn btn-light btn-lg text-dark">Book Now</button>
+              </div>
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </section>
+
+<!-- toast -->
+<div class="toast  mt-5 ms-4 bg-danger text-white fade show">
+  <div class="toast-header  bg-transparent text-white">
+      <strong class="me-auto"><i class="fas fa-gift me-2"></i>20% off on booking</strong>
+     
+      <button type="button" class="btn-close btn-close-white me-0" data-bs-dismiss="toast"></button>
+  </div>
+  
+</div>
+
+  <!-- Moment -->
+
+
+  <section class="container mt-5" id="moment">
+     <div class="moment ">
+     <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-6">  
+        <h1 class="w-bold big" >Every moment is Precious </h1>
+        <p class="w-75 text-left"> "Marriages, like a garden, take time to grow. But the harvest is rich unto those who patiently and tenderly care for the ground</p>
+        <button class="btn color text-light ">Explore Now <i class="fas fa-arrow-right ms-2"></i> </button>   
+    </div>
+    <div class="col-md-6 mt-2">
+        <img src="images/wedding.png" class="img-fluid">
+    </div>
+     </div>
+     </div>
+</section>
+
+
+<!-- Package section -->
+
+<section class="package mt-5">
+  <div class="container mt-5">
+    <h1 class="text-center  mb-5">Our Packages</h1>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col-md position-relative">
+              <div class="card position-relative h-100 border-0">
+               
+                  <div class="card-body">
+                     <h1 class="fw-bold" >$300</h1>
+                     <h1 class="fs-3 fw-bold">Bridal Dressing</h1>
+                     <p class="mb-3">For most wedding with Premium Plans</p>
+                     <span class="d-flex  align-items-center mb-2">
+                       <i class="fa fa-check-circle"></i>
+                       <p class="m-0 ps-3  text-dark">Bridal dressing</p>
+                      </span>
+                     <span class="d-flex  align-items-center mb-2">
+                       <i class="fa fa-check-circle"></i>
+                       <p class="m-0 ps-3  text-dark">Catering supply</p>
+                      </span>
+                     <span class="d-flex  align-items-center mb-2">
+                       <i class="fa fa-check-circle"></i>
+                       <p class="m-0 ps-3  text-dark">Groom suit & hair</p>
+                      </span>
+                     <span class="d-flex  align-items-center mb-2">
+                       <i class="fa fa-check-circle"></i>
+                       <p class="m-0 ps-3  text-dark">decoration desing</p>
+                      </span>
+                     <span class="d-flex  align-items-center mb-2">
+                       <i class="fa fa-check-circle"></i>
+                       <p class="m-0 ps-3  text-dark">Menu ready</p>
+                      </span>
+                     <button class="btn btn-primary w-100 rounded-pill bg-white border-0 fw-bold">Choose Plan</button>
+                  </div>
+                
+              </div>
+          </div>
+          <div class="col-md position-relative">
+              <div class="card position-relative h-100 border-0">
+                 
+                 
+                  <div class="card-body">
+                  <h1 class="fw-bold">$500</h1>
+                  <h1 class="fs-3 fw-bold">Groom Dressing</h1>
+                  <p class="mb-3">For wedding with basic plan and limited item</p>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Groom Dressing</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Bridal dressing</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Managment support</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Decoration design</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Bill as shift</p>
+                  </span>
+                 
+                  <button class="btn btn-primary w-100 rounded-pill bg-white border-0 fw-bold">Choose Plan</button>
+                  </div>
+                  
+              </div>
+          </div>
+          <div class="col-md position-relative">
+              <div class="card position-relative h-100 border-0">
+                  <button
+                      class="position-absolute top-0 start-50 px-4 py-2 translate-middle badge rounded-pill border-0 bg-danger" >Hot</button>
+                 
+                  <div class="card-body">
+                  <h1 class="fw-bold">$800</h1>
+                  <h1 class="fs-3 fw-bold">Catering</h1>
+                  <p class="mb-3">For most wedding with Premium Plans</p>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Full space access</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Groom Dressing</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Buffet Food</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Premium decoration</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Pay as plan</p>
+                  </span>
+                  <button class="btn btn-primary w-100 rounded-pill bg-white border-0  fw-bold">Choose Plan</button>
+                  </div>
+                  
+              </div>
+          </div>
+          <div class="col-md position-relative">
+              <div class="card position-relative h-100 border-0">
+                 
+                  <div class="card-body">
+                  <h1 class="fw-bold">$1200</h1>
+                  <h1 class="fs-3 fw-bold">Decoration</h1>
+                  <p class="mb-3">For most corporate buisness events</p>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Catering supply</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Dedicated Team</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2"n>
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Buffet Food</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Premium decoration</p>
+                  </span>
+                  <span class="d-flex  align-items-center mb-2">
+                      <i class="fa fa-check-circle"></i>
+                      <p class="m-0 ps-3  text-dark">Pay as plan</p>
+                  </span>
+                  <button class="btn btn-primary w-100 rounded-pill bg-white border-0  fw-bold">Choose Plan</button>
+                  </div>
+                 
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+      <!-- About Us -->
+
+
+      <section class="about mt-5 pt-2 h-100 pb-5" id="about" >
+        <div class="section-inner container text-white">
+          <div class="about-text">
+            <h1 class="text-center big mt-5">About Us</h1>
+            <p class="w-75 my-4 m-auto text-center">As a best wedding planner and event coordination company we Creating extraordinary event and wedding in our speciality. Creative design, Entrtainment, themed decoration BrideGroom events deliver best resonance to our clients valuable time and money.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="text d-flex flex-column align-items-center justify-column-center">
+                <h1>900++</h1>
+                <p class="fw-bold">Hours</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text d-flex flex-column align-items-center justify-column-center">
+                <h1 >800++</h1>
+                <p class="fw-bold">Venues</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text d-flex flex-column align-items-center justify-column-center">
+                <h1>50++</h1>
+                <p class=" fw-bold">Countries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+   
+
+   <!-- Question Section -->
+
+   <section class="container my-5 py-2" id="faq">
+    <div class="question">
+        <h1 class="text-center m-5 big ">Frequently Ask Questions</h1>
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Will i still have some control over my wedding if i hire your team as my planner?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Definitely!  We will do as much, or as little, as you want us to do during the wedding planning process.  We always ask you what you want and we then make our suggestions to you. </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item ">
+                          <h2 class=" accordion-header " id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Do you take on more than one wedding per day?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, we will never take on two weddings in one day. We typically don’t even take on more than one wedding per planner per weekend. This is another thing that sets us apart from other wedding planners. While doing your research you will find that many wedding planners will take on more than one wedding per weekend. </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Do you do destination weddings?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes! We love destination weddings.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item ">
+                          <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                              
+                            Who do you work best with? what personalities do you work best with?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Almost everyone.  We offer full wedding planning as well as day of coordination and everything in between.  Everyone at least needs a wedding day coordinator.  They make your day run smoothly by being there to handle all of the things you haven’t thought of. </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex ms-3 justify-content-end">
+                    <img src="images/que.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   
+    <!-- Footer Section -->
+
+    <footer>
+      <div class=" py-5 footer-inner container">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="copyright ">
+              <p class="text-white text-center pb-4 pt-5">	&#169 2020 BrideGroom. All rights reserved</p>
+          </div>
+          </div>
+          <div class="col-md-6">
+            <h3 class=" text-white text-center">Get the app</h3>
+            <div class=" link d-flex flex-column align-items-center justify-content-center">
+                <a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849">
+                    <img src="images/google-play.png" alt="" class="py-2">
+                </a>
+                <a href=" https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US">
+                  <img src="images/app-store.png" alt="">
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <footer>
+      <div class="container">
+       <div class="row">
+         <div class="footer-inner py-5 ">
+             <div class="col-md-6">
+                 <div class="copyright">
+                     <p class="text-white">	&#169 2020 BrideGroom. All rights reserved</p>
+                 </div>
+             </div>
+             <div class="col-md-6 ">
+                 <div class="get-app d-flex justify-content-center align-items-center ">
+                    <h3 class=" text-white">Get the app</h3>
+                    <div class=" link d-flex flex-column align-items-center justify-content-center">
+                        <a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849">
+                            <img src="images/google-play.png" alt="" class="py-2">
+                        </a>
+                        <a href=" https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US">
+                          <img src="images/app-store.png" alt="">
+                        </a>
+                    </div>
+                     
+             </div>
+         </div>
+             
+     </div>
+     
+ </div>
+      </div>
+</footer> -->
+
+<script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+     font-family: 'Poppins', sans-serif;;
+}
+
+section .big{
+    font-size: 40px;
+}
+section .moment .color{
+    background-color: #fb607f;
+}
+
+  .card:hover {
+    color: white;
+    background-color: #fb607f;
+    position: absolute;
+    top: -5%;
+  }
+  .card:hover h1 {
+    color: white;
+  }
+  
+  .card:hover p {
+    color: white;
+  }
+  
+  .card-body button {
+    color: #fb607f;
+  }
+  .card-body button:hover {
+    color: #fb607f;
+  }
+.about{
+    background-image: url(../images/aboutus.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); 
+     background-blend-mode: overlay; 
+  }
+footer {
+    background-color: black;
+    color: white;
+}
